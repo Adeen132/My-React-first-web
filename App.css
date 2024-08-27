@@ -1,0 +1,80 @@
+/* App.css */
+.App {
+  text-align: center;
+  font-family: 'Arial', sans-serif;
+}
+
+.App-header {
+  background-color: #34495e;
+  min-height: 1vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  padding: 20px;
+  border-bottom: 5px solid #2980b9;
+  /* height: -100px; */
+}
+
+.a {
+  background-color: #2980b9;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.Aaliyan {
+  margin: 0;
+  padding: 10px;
+}
+
+.buttons-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.button-group {
+  margin-bottom: 20px;
+}
+
+.class {
+  background-color: #3498db;
+  color: white;
+  border: 2px solid transparent;
+  padding: 10px 20px;
+  margin: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s, border-color 0.3s;
+}
+
+.class:hover {
+  background-color: #2980b9;
+  border-color: #3498db;
+}
+
+.color {
+  font-size: 30px;
+  font-weight: bold;
+  margin: 20px 0;
+}
+
+.sigCanvas {
+  border: 2px solid #2c3e50;
+  margin: 20px 0;
+  border-radius: 5px;
+}
+
+.map-container {
+  height: 400px;
+  width: 100%;
+  margin-top: 40px;
+}
